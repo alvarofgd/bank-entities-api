@@ -8,6 +8,20 @@ A comprehensive RESTful microservice for Bank CRUD operations built with **Java 
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.6-brightgreen?style=flat-square)
 ![Build](https://img.shields.io/badge/Build-Passing-success?style=flat-square)
 ![Maven](https://img.shields.io/badge/Maven-Wrapper-blue?style=flat-square)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=flat-square&logo=github)](https://github.com/alvarofgd/bank-entities-api)
+[![CI/CD](https://github.com/alvarofgd/bank-entities-api/actions/workflows/ci.yml/badge.svg)](https://github.com/alvarofgd/bank-entities-api/actions)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
+
+## 📍 Repository Information
+
+**🔗 GitHub Repository**: https://github.com/alvarofgd/bank-entities-api
+
+**🚀 Quick Links**:
+- [📋 Issues](https://github.com/alvarofgd/bank-entities-api/issues) - Report bugs or request features
+- [🔄 Pull Requests](https://github.com/alvarofgd/bank-entities-api/pulls) - Contribute to the project
+- [🚀 Actions](https://github.com/alvarofgd/bank-entities-api/actions) - View CI/CD pipeline
+- [📚 Wiki](https://github.com/alvarofgd/bank-entities-api/wiki) - Detailed documentation
+- [🔒 Security](https://github.com/alvarofgd/bank-entities-api/security) - Security advisories
 
 **✅ Project Status**: Successfully upgraded and ready for development!
 - **Compilation**: ✅ Clean compile successful
@@ -408,6 +422,42 @@ management.zipkin.tracing.endpoint=http://localhost:9411/api/v2/spans
 - [ ] Configure log aggregation in production
 - [ ] Add business metrics dashboards
 - [ ] Implement health check strategies
+
+## 🤝 Contributing
+
+We welcome contributions! This project follows best practices for collaborative development.
+
+### 🚀 Quick Start for Contributors
+
+1. **Fork** the repository on GitHub
+2. **Clone** your fork locally
+3. **Create** a feature branch: `git checkout -b feature/amazing-feature`
+4. **Make** your changes and add tests
+5. **Test** your changes: `./mvnw clean verify`
+6. **Commit** your changes: `git commit -m 'feat: add amazing feature'`
+7. **Push** to your branch: `git push origin feature/amazing-feature`
+8. **Open** a Pull Request
+
+### 📋 Guidelines
+
+- Read our [Contributing Guide](CONTRIBUTING.md) for detailed information
+- Follow our [Code of Conduct](CODE_OF_CONDUCT.md)
+- Use our issue templates for [bug reports](.github/ISSUE_TEMPLATE/bug_report.md) and [feature requests](.github/ISSUE_TEMPLATE/feature_request.md)
+- Check our [Security Policy](SECURITY.md) for reporting vulnerabilities
+
+### 🧪 Testing
+
+- Write tests for your changes
+- Ensure all tests pass: `./mvnw test`
+- Maintain or improve code coverage
+- Follow the existing test patterns
+
+### 📝 Documentation
+
+- Update documentation for API changes
+- Include examples in your code
+- Update the README if needed
+- Use clear commit messages
 
 ## 📜 License
 
