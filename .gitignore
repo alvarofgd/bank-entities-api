@@ -1,0 +1,275 @@
+# ===========================
+# Java & Maven
+# ===========================
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ===========================
+# IDE & Editor
+# ===========================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.project
+.classpath
+.factorypath
+.buildpath
+.target
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ===========================
+# Operating System
+# ===========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===========================
+# Spring Boot & Application
+# ===========================
+
+# Spring Boot
+*.original
+
+# Application logs
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+
+# ===========================
+# Docker & Containers
+# ===========================
+
+# Docker files (keep docker-compose.yml and Dockerfile)
+.dockerignore
+
+# Container logs
+docker-logs/
+
+# ===========================
+# Database & Persistence
+# ===========================
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# H2 Database
+*.h2.db
+*.trace.db
+*.lock.db
+
+# ===========================
+# Security & Configuration
+# ===========================
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Application properties with sensitive data
+application-local.properties
+application-dev.properties
+application-prod.properties
+*-secret.properties
+
+# SSL/TLS certificates
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+*.keystore
+*.truststore
+
+# ===========================
+# Testing
+# ===========================
+
+# Test reports
+test-results/
+test-output/
+junit-reports/
+surefire-reports/
+failsafe-reports/
+
+# Coverage reports
+coverage/
+.nyc_output
+*.lcov
+
+# ===========================
+# Monitoring & Observability
+# ===========================
+
+# Actuator dump files
+heapdump*
+*.hprof
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# ===========================
+# Package Managers
+# ===========================
+
+# npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# ===========================
+# Backup & Temporary Files
+# ===========================
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Temporary directories
+temp/
+tmp/
+
+# ===========================
+# Custom Application Files
+# ===========================
+
+# Local development overrides
+application-local.yml
+application-local.yaml
+
+# Data exports
+exports/
+*.csv
+*.xls
+*.xlsx
+
+# Upload directories
+uploads/
+files/
+
+# Cache directories
+cache/
+.cache/
