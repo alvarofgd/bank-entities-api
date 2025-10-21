@@ -124,6 +124,38 @@ docker-compose up -d bank-entities-api
 curl http://localhost:8080/actuator/health
 ```
 
+## 📂 Version Control & Development
+
+### Git Repository Setup
+This project is now a **Git repository** with comprehensive `.gitignore` configuration:
+
+```bash
+# Repository status
+git status                    # Check current status
+git log --oneline            # View commit history
+
+# Development workflow
+git add .                    # Stage changes
+git commit -m "Description"  # Commit changes
+git branch feature/xyz       # Create feature branch
+git checkout feature/xyz     # Switch to feature branch
+```
+
+### What's Ignored
+The `.gitignore` file excludes:
+- ✅ **Build artifacts**: `target/`, `*.jar`, `*.class`
+- ✅ **IDE files**: `.vscode/`, `.idea/`, `.eclipse/`
+- ✅ **OS files**: `.DS_Store`, `Thumbs.db`
+- ✅ **Logs**: `*.log`, `logs/`
+- ✅ **Security**: `.env`, `*-secret.properties`, `*.key`
+- ✅ **Temporary files**: `*.tmp`, `*.bak`, cache directories
+- ✅ **Database files**: `*.db`, `*.sqlite`
+
+### Initial Commit
+- **48 files committed** with complete project structure
+- All source code, tests, configuration, and documentation
+- Docker setup and automation scripts included
+
 ## 🌐 Service URLs
 
 | Service | URL | Credentials |
