@@ -126,13 +126,13 @@ cd bank-entities-api
 ./mvnw clean package -DskipTests
 
 # 2. Start infrastructure services
-docker-compose up -d postgres elasticsearch logstash prometheus grafana zipkin
+docker compose up -d postgres elasticsearch logstash prometheus grafana zipkin
 
 # 3. Wait for services to be ready (check health)
-docker-compose ps
+docker compose ps
 
 # 4. Start the application
-docker-compose up -d bank-entities-api
+docker compose up -d bank-entities-api
 
 # 5. Verify application is running
 curl http://localhost:8080/actuator/health
