@@ -119,6 +119,20 @@ cd bank-entities-api
 ./start-app.sh --help                # Show all options
 ```
 
+**Note**: The startup script automatically populates the database with 5 sample banks from major Spanish and European institutions.
+
+### Database Population
+
+If you need to populate the database separately:
+
+```bash
+# Run the population script
+./scripts/populate-db.sh
+
+# Or populate manually
+docker exec bank-entities-postgres psql -U bank_user -d bank_entities_db -f /docker-entrypoint-initdb.d/init-db.sql
+```
+
 ### Option 2: Manual Startup
 
 ```bash
